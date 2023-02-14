@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Container{
+    position: absolute;
+    top: 27vh;
+    left: 30vh;
+    width: 90.9vh;
+    z-index: 2;
+}
+
+#bg{
+    transform: rotateX(-9deg);
+    z-index: 1;
+}
+
+#para{
+    display: none;
+}
+
+#child{
+    height: 15px;
+    width: 15px;
+    margin-left: -2px;
+    margin-top: 12px;
+}
+
+ 
